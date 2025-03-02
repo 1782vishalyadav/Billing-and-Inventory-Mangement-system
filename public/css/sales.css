@@ -1,0 +1,40 @@
+/* Sales-specific styles */
+#billing {
+    padding: 2rem;
+}
+
+#createBillForm {
+    margin-bottom: 2rem;
+}
+
+#createBillForm input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+#billItemsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+#billItemsTable th, #billItemsTable td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#billItemsTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+#billItemsTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+#billItemsTable button {
+    margin-right: 0.5rem;
+}

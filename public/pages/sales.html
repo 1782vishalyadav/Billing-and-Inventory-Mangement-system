@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Management</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/sales.css">
+</head>
+<body>
+    <header>
+        <h1>Sales Management</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Dashboard</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="sales.html">Billing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="billing">
+            <h2>Create Bill</h2>
+            <form id="createBillForm">
+                <input type="text" id="customerName" placeholder="Customer Name" required>
+                <table id="billItemsTable">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Bill items will be dynamically added here -->
+                    </tbody>
+                </table>
+                <button type="button" id="addBillItem">Add Item</button>
+                <button type="submit">Create Bill</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Inventory and Billing Management System</p>
+    </footer>
+
+    <script src="../js/sales.js"></script>
+</body>
+</html>

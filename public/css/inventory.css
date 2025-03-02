@@ -1,0 +1,39 @@
+/* Inventory-specific styles */
+#inventory {
+    padding: 2rem;
+}
+
+#addProductForm {
+    margin-bottom: 2rem;
+}
+
+#addProductForm input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+#productTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#productTable th, #productTable td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#productTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+#productTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+#productTable button {
+    margin-right: 0.5rem;
+}
