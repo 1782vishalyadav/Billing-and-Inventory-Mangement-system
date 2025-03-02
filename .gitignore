@@ -6,6 +6,8 @@ node_modules/
 
 # Ignore environment variable files
 .env
+db.js
+
 
 # Ignore build directories
 dist/
